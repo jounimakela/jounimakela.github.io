@@ -6,53 +6,72 @@
 
         <title>Stylesheet test - Jouni Mäkelä</title>
 
-        <link href="https://fonts.googleapis.com/css?family=Inconsolata|Noto+Serif:400,400i,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Inconsolata|Noto+Serif:400,700" rel="stylesheet">
         <link href="all.css" rel="stylesheet">
-        <!-- <link rel="stylesheet" href="https://basehold.it/16"> -->
     </head>
     <body>
-        <article>
-            <h1>Heading 1</h1>
-            <time datetime="2016-11-05">05 November 2015</time>
+		<header>
+			<nav>
+				<a href="#home">Home</a>
+				<a href="#blog">Blog</a>
+				<a href="https://github.com/jounimakela" target="_blank">Github</a>
+			</nav>
+		</header>
 
-            <section>
-                <p>This is just a test page. This is not very <i>important.</i> I'm just testing different <strong>styles</strong>.</p>
-            </section>
+		<main>
+			<article>
+				<h1>Welcome</h1>
 
-            <section>
-                <h2>Heading 2</h2>
-                <p>Vivamus vestibulum, libero eu dignissim eleifend, tellus nisl vestibulum nisl, eget maximus tortor quam quis leo. Quisque varius vehicula ipsum eu bibendum. Aenean vel risus posuere, pellentesque tellus quis, dignissim dolor. Nam et nisl eget elit rutrum vulputate a et ipsum. Donec ante ante, eleifend ac tellus at, blandit malesuada nisl. Suspendisse consectetur ipsum quis efficitur tempor. Aenean vel maximus augue.</p>
-                <img src="images/screenfetch.jpg">
-            </section>
+				<h2>Second header</h2>
+				<p>Lorem ipsum dolor sit amet, <b>consectetur adipiscing elit</b>. Sed efficitur suscipit dapibus. Maecenas sed nunc quis orci aliquet pulvinar ut et nulla. Mauris ac sapien aliquam, vehicula ante et, porta turpis. <b>Duis posuere lacus ac eros dignissim</b>,
+				sed volutpat tellus pellentesque. Ut tincidunt velit et metus sagittis sodales. Nunc congue enim eget feugiat ornare. Vestibulum laoreet venenatis risus, sed maximus lacus dictum sit amet. Aliquam vitae ligula in orci facilisis aliquet. Suspendisse
+				mi odio, vulputate sit amet semper at, eleifend sed magna. Phasellus justo mauris, iaculis nec blandit a, tristique eu risus. Aenean efficitur ante id libero auctor, sit amet semper eros pharetra.</p>
 
-            <section>
-                <pre class="lang-cpp"><code class="keyword">#include &lt;iostream&gt;</code>
+				<h3>Third header</h3>
 
-<code class="keyword">int</code> main(<code class="keyword">int</code> argc, <code class="keyword">const char</code> *argv[])
+				<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam ultricies non augue quis ullamcorper. Fusce vulputate condimentum est, sit amet fermentum justo pharetra eu. Etiam elementum accumsan lectus, nec blandit
+				ipsum facilisis at.</p>
+
+				<img alt="" src="https://i.imgur.com/C5Ps6Al.jpg" />
+
+				<p>
+				Suspendisse potenti. Nulla ut dolor at diam ullamcorper placerat. Aenean sed dolor eget nisl tincidunt pellentesque. Nulla lacinia arcu eu metus pulvinar, eu vulputate velit sagittis. Suspendisse eu fringilla ipsum. Donec sed tellus ac augue maximus sodales
+				sed quis est. Phasellus mauris nisi, dapibus eu suscipit id, vestibulum quis nibh. Vestibulum vestibulum felis a fermentum molestie. Quisque sem mauris, congue eu libero vel, imperdiet mattis lacus. Curabitur elementum dolor ac massa varius ullamcorper.</p>
+
+				<pre>#include &lt;stdio.h&gt;
+
+int main()
 {
-    <code class="comment">/* Prints 'Hello world!' */</code>
-    std::cout << <code class="constant">"Hello world!"</code> << std::endl;
-    <code class="keyword">return</code> <code class="constant">0</code>;
-}</pre>
-            </section>
+	printf("Hello world!");
+	return 0;
+}
 
-            <section>
-                <h2>Heading 2</h2>
-                <blockquote>
-                    <p>Jet fuel can't melt steel beams</p>
-                </blockquote>
-                <p>Ut condimentum purus mi, et congue arcu porttitor condimentum. Donec lobortis bibendum erat. Fusce scelerisque dictum mi id eleifend. Maecenas sed porttitor dui. Cras tellus ipsum, scelerisque sit amet placerat a, condimentum sit amet libero. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis egestas lorem vel massa eleifend molestie. Nulla sodales et urna eu sollicitudin. In sed ultrices urna. Quisque elementum hendrerit urna, quis porta eros lacinia ut. Fusce ac sapien ac enim condimentum ultricies. Praesent rhoncus eu nisl eu dapibus. Sed tristique purus non ornare laoreet. Praesent erat purus, maximus at pulvinar ac, viverra quis quam. Duis vulputate urna arcu, ut rhoncus felis condimentum quis. Donec facilisis, enim sit amet facilisis condimentum, lectus felis interdum nunc, nec bibendum lorem neque a ligula.</p>
+/*
+Testing line length. 74 characters should fit in one line.
+01234567890123456789012345678901234567890123456789012345678901234567891234
+*/</pre>
 
-                <h3>Heading 3</h3>
-                <p>Ut condimentum purus mi, et congue arcu porttitor condimentum. Donec lobortis bibendum erat. Fusce scelerisque dictum mi id eleifend. Maecenas sed porttitor dui. Cras tellus ipsum, scelerisque sit amet placerat a, condimentum sit amet libero. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis egestas lorem vel massa eleifend molestie.</p>
-            </section>
-        </article>
+				<h4>Fourth header</h4>
+				<p>Cras aliquet, <a href="#">nibh nec gravida</a> sollicitudin, tortor turpis scelerisque nisi, ut ornare ex erat vel sapien. Sed non turpis quis dui mattis luctus vel porta tortor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+				cubilia Curae; Aenean auctor mi sit amet dictum consectetur.</p>
 
-        <footer>
-            <h2>jounimakela.com</h2>
-            <p>Contact me via email at <a href="#">root a jounimakela.com</a></p>
-            <p>Site by Jouni Mäkelä, all rights reserved 2016</p>
-            <p>Have a nice day.</p>
-        </footer>
+				<ul>
+				<li>Test 123</li>
+				<li>Test 2</li>
+				</ul>
+
+				<p>Praesent vitae enim eget eros fermentum elementum. Sed vitae arcu id orci imperdiet finibus eget non eros. Proin et augue vitae tellus egestas laoreet. Sed et sem ac metus tempor viverra. Aliquam felis magna, luctus sit amet blandit id, hendrerit
+				at dolor. In mattis tellus turpis, gravida aliquam sapien faucibus vel. Maecenas vitae ex in mi consectetur fringilla vitae vel justo. Curabitur iaculis condimentum posuere. Sed et quam libero. Sed iaculis vitae ligula id venenatis. Morbi laoreet
+				dolor finibus, blandit risus sed, tristique felis. Aenean elementum varius quam ut pretium.</p>
+
+				<hr />
+
+				<h2>Test</h2>
+				<p>Cras aliquet, <a href="#">nibh nec gravida</a> sollicitudin, tortor turpis scelerisque nisi, ut ornare ex erat vel sapien. Sed non turpis quis dui mattis luctus vel porta tortor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+				cubilia Curae; Aenean auctor mi sit amet dictum consectetur. Praesent vitae enim eget eros fermentum elementum. Sed vitae arcu id orci imperdiet finibus eget non eros. Proin et augue vitae tellus egestas laoreet. Sed et sem ac metus tempor viverra.
+				Aliquam felis magna, luctus sit amet blandit id, hendrerit at dolor. In mattis tellus turpis, gravida aliquam sapien faucibus vel. Maecenas vitae ex in mi consectetur fringilla vitae vel justo. Curabitur iaculis condimentum posuere. Sed et quam
+				libero. Sed iaculis vitae ligula id venenatis. Morbi laoreet dolor finibus, blandit risus sed, tristique felis. Aenean elementum varius quam ut pretium.</p>
+			</article>
+		</main>
     </body>
 </html>
