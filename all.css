@@ -27,6 +27,7 @@ nav a {
 	font-weight: 700;
 	font-size: 0.8em;
 	margin: 0 1em;
+	letter-spacing: 1px;
 }
 
 h1 {
@@ -122,7 +123,13 @@ pre::selection {
 	color: #333;
 }
 
-time {
-	font-size: 0.5em;
-	display: inline;
+/*
+ * Blog archive specific CSS
+ */
+li > article {
+	border-bottom: 1px solid #eee;
+}
+
+h3 a {
+	text-decoration: none;
 }
