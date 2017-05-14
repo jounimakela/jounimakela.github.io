@@ -111,14 +111,22 @@ pre {
 	margin-right: -3em;
 }
 
-::-moz-selection,
 ::selection {
 	background: #333;
 	color: #f9f9f9;
 }
 
-pre::-moz-selection,
+::-moz-selection {
+	background: #333;
+	color: #f9f9f9;
+}
+
 pre::selection {
+	background: #f9f9f9;
+	color: #333;
+}
+
+pre::-moz-selection {
 	background: #f9f9f9;
 	color: #333;
 }
