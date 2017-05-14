@@ -9,10 +9,11 @@ body {
 	line-height: 1.9;
 	color: #333;
 	background: #f9f9f9;
+	padding: 2em;
 }
 
 main {
-	max-width: 620px;
+	max-width: 600px;
 	margin: auto;
 }
 
