@@ -1,43 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<title>Stylesheet test</title>
+  <title>Stylesheet test</title>
 
-	<link href="https://fonts.googleapis.com/css?family=Inconsolata|Noto+Serif:400,700" rel="stylesheet">
-	<link href="combined.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata|Noto+Serif:400,700" rel="stylesheet">
+  <link href="combined.css" rel="stylesheet">
+
+  <style>
+      li > article {
+          border-bottom: 1px solid #eee;
+      }
+
+      h3 a {
+          text-decoration: none;
+      }
+  </style>
 </head>
 <body>
-	<header>
-		<nav>
-			<a href="/">Home</a>
-			<a href="https://github.com/jounimakela" target="_blank">Github</a>
-		</nav>
-	</header>
+  <header>
+    <nav>
+      <a href="/">Home</a>
+      <a href="https://github.com/jounimakela" target="_blank">Github</a>
+    </nav>
+  </header>
 
-	<main style="text-align: center">
-		<h1>Blog</h1>
-		<p>Cray bicycle rights jianbing pinterest cold-pressed. 90's tbh shoreditch echo park glossier, seitan raw denim letterpress cardigan. Humblebrag vaporware typewriter, knausgaard affogato sriracha raclette celiac iPhone brunch bitters PBR&B.</p>
+  <main style="text-align: center">
+    <h1>Blog</h1>
+    <p>Cray bicycle rights jianbing pinterest cold-pressed. 90's tbh shoreditch echo park glossier, seitan raw denim letterpress cardigan. Humblebrag vaporware typewriter, knausgaard affogato sriracha raclette celiac iPhone brunch bitters PBR&B.</p>
 
-		<ul style="list-style-type: none; padding: 0;">
-			<li>
-				<article>
-					<h3><a href="stylesheet-test/">Stylesheet test</a></h3>
-					<time datetime="2017-05-14">14.05.2017</time>
-					<p>A document to test my CSS.</p>
-				</article>
-			</li>
+    <ul style="list-style-type: none; padding: 0;">
+      <li>
+        <article>
+          <h3><a href="stylesheet-test/">Stylesheet test</a></h3>
+          <time datetime="2017-05-14">14.05.2017</time>
+          <p>A document to test my CSS.</p>
+        </article>
+      </li>
 
-			<li>
-				<article>
-					<h3><a href="stylesheet-test/">Stylesheet test</a></h3>
-					<time datetime="2017-05-14">14.05.2017</time>
-					<p>A document to test my CSS.</p>
-				</article>
-			</li>
-		</ul>
-	</main>
+      <li>
+        <article>
+          <h3><a href="stylesheet-test/">Stylesheet test</a></h3>
+          <time datetime="2017-05-14">14.05.2017</time>
+          <p>A document to test my CSS.</p>
+        </article>
+      </li>
+    </ul>
+  </main>
 </body>
 </html>

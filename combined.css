@@ -16,7 +16,7 @@ body {
 }
 
 main {
-    max-width: 600px;
+    max-width: 580px;
     margin: auto;
 }
 
@@ -193,15 +193,4 @@ pre::-moz-selection {
         margin-left: -3em;
         margin-right: -3em;
     }
-}
-
-/*
- * Blog archive specific CSS
- */
-li > article {
-    border-bottom: 1px solid #eee;
-}
-
-h3 a {
-    text-decoration: none;
 }
