@@ -11,7 +11,7 @@ body {
     background: #f9f9f9;
     color: #333;
 
-    padding: 1.5em;
+    padding: 2em;
     margin: 0;
 }
 
@@ -78,17 +78,10 @@ a {
 }
 
 pre {
-    padding: 1.85em;
-    margin-right: -1.85em;
-    margin-left: -1.85em;
-    overflow-x: scroll;
-
     font-family: 'Inconsolata', monospace;
     font-size: 0.8em;
     line-height: 1.5;
-
-    background: #333;
-    color: #f9f9f9;
+    overflow-x: scroll;
 }
 
 img {
@@ -119,16 +112,6 @@ nav a {
 ::-moz-selection {
     background: #333;
     color: #f9f9f9;
-}
-
-pre::selection {
-    background: #f9f9f9;
-    color: #333;
-}
-
-pre::-moz-selection {
-    background: #f9f9f9;
-    color: #333;
 }
 
 @media (min-width: 920px) {
@@ -186,11 +169,5 @@ pre::-moz-selection {
 
     nav {
         padding: 2em 0 1em;
-    }
-
-    pre {
-        padding: 3em;
-        margin-left: -3em;
-        margin-right: -3em;
     }
 }
