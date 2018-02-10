@@ -1,6 +1,6 @@
 html {
     font-size: 16px;
-    line-height: 34px;
+    line-height: 34;
 }
 
 body {
@@ -41,18 +41,18 @@ h3 {
     font-size: 1.3125rem;
     line-height: 2.125rem;
     margin-top: 2.125rem;
-    margin-bottom: 0rem;
+    margin-bottom: 0;
 }
 
 h4, h5 {
     font-size: 1rem;
     line-height: 2.125rem;
     margin-top: 2.125rem;
-    margin-bottom: 0rem;
+    margin-bottom: 0;
 }
 
 p, ul, ol, pre {
-    margin-top: 0rem;
+    margin-top: 0;
     margin-bottom: 2.125rem;
 }
 
@@ -117,7 +117,7 @@ nav a {
 @media (min-width: 920px) {
     html {
 	font-size: 20px;
-	line-height: 43px;
+	line-height: 43;
     }
 
     body {
@@ -144,18 +144,18 @@ nav a {
 	font-size: 1.35rem;
 	line-height: 2.15rem;
 	margin-top: 2.15rem;
-	margin-bottom: 0rem;
+	margin-bottom: 0;
     }
 
     h4, h5 {
 	font-size: 1rem;
 	line-height: 2.15rem;
 	margin-top: 2.15rem;
-	margin-bottom: 0rem;
+	margin-bottom: 0;
     }
 
     p, ul, ol, pre, table, blockquote  {
-	margin-top: 0rem;
+	margin-top: 0;
 	margin-bottom: 2.15rem;
     }
 
@@ -163,8 +163,8 @@ nav a {
     ol ol,
     ul ol,
     ol ul {
-	margin-top: 0rem;
-	margin-bottom: 0rem;
+	margin-top: 0;
+	margin-bottom: 0;
     }
 
     nav {
