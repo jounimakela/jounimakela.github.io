@@ -16,7 +16,7 @@ body {
 }
 
 main {
-    max-width: 590px;
+    max-width: 600px;
     margin: auto;
 }
 
@@ -147,24 +147,9 @@ nav a {
 	margin-bottom: 0;
     }
 
-    h4, h5 {
-	font-size: 1rem;
-	line-height: 2.15rem;
-	margin-top: 2.15rem;
-	margin-bottom: 0;
-    }
-
     p, ul, ol, pre, table, blockquote  {
 	margin-top: 0;
 	margin-bottom: 2.15rem;
-    }
-
-    ul ul,
-    ol ol,
-    ul ol,
-    ol ul {
-	margin-top: 0;
-	margin-bottom: 0;
     }
 
     nav {
