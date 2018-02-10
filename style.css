@@ -116,58 +116,58 @@ nav a {
 
 @media (min-width: 920px) {
     html {
-        font-size: 20px;
-        line-height: 38px;
+	font-size: 20px;
+	line-height: 43px;
     }
 
     body {
-        font-size: 20px;
-        line-height: 38px;
-        padding: 0;
+	font-size: 1rem;
+	line-height: 2.15;
+	padding: 0;
     }
 
     h1 {
-        font-size: 47px;
-        line-height: 76px;
-        margin-top: 38px;
-        margin-bottom: 76px;
+	font-size: 2.35rem;
+	line-height: 4.3rem;
+	margin-top: 2.15rem;
+	margin-bottom: 4.3rem;
     }
 
     h2 {
-        font-size: 36px;
-        line-height: 38px;
-        margin-top: 38px;
-        margin-bottom: 38px;
+	font-size: 1.8rem;
+	line-height: 2.15rem;
+	margin-top: 2.15rem;
+	margin-bottom: 2.15rem;
     }
 
     h3 {
-        font-size: 27px;
-        line-height: 38px;
-        margin-top: 38px;
-        margin-bottom: 0;
+	font-size: 27px;
+	line-height: 38px;
+	margin-top: 38px;
+	margin-bottom: 0;
     }
 
     h4, h5 {
-        font-size: 20px;
-        line-height: 38px;
-        margin-top: 38px;
-        margin-bottom: 0;
+	font-size: 20px;
+	line-height: 38px;
+	margin-top: 38px;
+	margin-bottom: 0;
     }
 
     p, ul, ol, pre, table, blockquote  {
-        margin-top: 0;
-        margin-bottom: 38px;
+	margin-top: 0;
+	margin-bottom: 38px;
     }
 
     ul ul,
     ol ol,
     ul ol,
     ol ul {
-        margin-top: 0;
-        margin-bottom: 0;
+	margin-top: 0;
+	margin-bottom: 0;
     }
 
     nav {
-        padding: 2em 0 1em;
+	padding: 2em 0 1em;
     }
 }
