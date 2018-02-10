@@ -141,30 +141,30 @@ nav a {
     }
 
     h3 {
-	font-size: 27px;
-	line-height: 38px;
-	margin-top: 38px;
-	margin-bottom: 0;
+	font-size: 1.35rem;
+	line-height: 2.15rem;
+	margin-top: 2.15rem;
+	margin-bottom: 0rem;
     }
 
     h4, h5 {
-	font-size: 20px;
-	line-height: 38px;
-	margin-top: 38px;
-	margin-bottom: 0;
+	font-size: 1rem;
+	line-height: 2.15rem;
+	margin-top: 2.15rem;
+	margin-bottom: 0rem;
     }
 
     p, ul, ol, pre, table, blockquote  {
-	margin-top: 0;
-	margin-bottom: 38px;
+	margin-top: 0rem;
+	margin-bottom: 2.15rem;
     }
 
     ul ul,
     ol ol,
     ul ol,
     ol ul {
-	margin-top: 0;
-	margin-bottom: 0;
+	margin-top: 0rem;
+	margin-bottom: 0rem;
     }
 
     nav {
