@@ -11,7 +11,7 @@ body {
     background: #f9f9f9;
     color: #333;
 
-    padding: 1.6em;
+    padding: 1.6rem;
     margin: 0;
 }
 
@@ -79,14 +79,14 @@ a {
 
 pre {
     font-family: 'Inconsolata', monospace;
-    font-size: 0.8em;
+    font-size: 0.8rem;
     line-height: 1.5;
     overflow-x: scroll;
 }
 
 img {
     max-width: 100%;
-    margin: 0 auto 1.9em;
+    margin: 0 auto 2.125rem;
     display: block;
 }
 
@@ -99,8 +99,7 @@ nav a {
     text-transform: uppercase;
     text-decoration: none;
     font-weight: 700;
-    font-size: 0.8em;
-    margin: 0 1em;
+    margin: 0 1rem;
     letter-spacing: 1px;
 }
 
@@ -147,16 +146,12 @@ nav a {
 	margin-bottom: 0;
     }
 
-    p, ul, ol, pre, table, blockquote  {
+    p, ul, ol, pre, table, blockquote, img  {
 	margin-top: 0;
 	margin-bottom: 2.15rem;
     }
 
     nav {
-	padding: 2em 0 1em;
-    }
-
-    img {
-	margin-bottom: 2.15rem;
+	padding: 2rem 0 1rem;
     }
 }
